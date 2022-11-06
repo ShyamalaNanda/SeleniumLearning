@@ -18,5 +18,6 @@ public boolean isDamaged =false;
 		System.out.println("Mobile MEI Number:"+samsung.mobilemeiNumber);
 		System.out.println("Mobile Price:"+samsung.mobilePrice);
 		System.out.println("Whether damaged or not :"+samsung.isDamaged);
+		System.out.println("=============================================");
 	}
 }
