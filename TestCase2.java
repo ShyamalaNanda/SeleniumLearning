@@ -53,15 +53,13 @@ public class TestCase2 {
 		
 		driver.findElement(By.id("proceed-Qty")).click();
 		
-		driver.findElement(By.id("A_8_0110")).click();
+		driver.findElement(By.id("A_9_0110")).click();
 		
 		driver.findElement(By.id("btnSTotal_reserve")).click();
 		
-		WebElement subTotal = driver.findElement(By.xpath("//span[contains(Text(),'Rs.263.54')]"));
-		
-		System.out.println(subTotal.getText());
-		
+		WebElement subTotal = driver.findElement(By.xpath("//span[contains(text(),'Rs.263.54')]"));
+		String valueSub=subTotal.getText();
+				
+				System.out.println(valueSub+" "+subTotal.getText());
 	}
 }
-
-	
